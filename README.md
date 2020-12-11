@@ -1,5 +1,5 @@
 # MacBlock
-A simple python script that scans and adds selected devices in your network to the Vianet (raisecom variant) router's mac blocklist
+A simple python script that scans and adds selected devices in your network to the Vianet (raisecom variant) router's mac blocklist.
 
 ## Requirements
 Python libraries: 
@@ -26,8 +26,8 @@ sudo pacman -S arp-scan
 ```
 
 ## Usage
-Just run the python script `macblock.py`
+Just run the python script `macblock.py`.
 
 If you haven't changed the router management page login credentials, the script will use the default login credentials.
 
-If you have changed the login credentials change the **username** and **psd** in line 9 to match yours
+If you have changed the login credentials change the **username** and **psd** in line 9 to match yours.
