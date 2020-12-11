@@ -80,15 +80,6 @@ def macban():
     print(f"\nAdded {scl[ch][1]} to the mac blocklist.")
 
 
-'''def macuban():
-    macblstat()
-    scl, _ = parse()
-    s.post('http://192.168.1.1/boaform/admin/formRteMacFilter',
-           data=dat1, headers=headers)
-    ch = int(input('Index to unban: '))
-    dat4st = '{"action": "rm","bcdata": "ld4:name1:04:desc31:(Unknown:+locally+administered)3:mac17:'++'ee","submit-url": "http://192.168.1.1/secu_macfilter_src.asp"}'''
-
-
 try:
     with re.Session() as s:
         print('\nLogging In...')
