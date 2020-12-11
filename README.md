@@ -1,5 +1,5 @@
 # MacBlock
-A simple python script that scans and adds currently connected devices in a network to the Vianet (only raisecom variant) router's mac blocklist
+A simple python script that scans and adds selected devices in your network to the Vianet (raisecom variant) router's mac blocklist
 
 ## Requirements
 Python libraries: 
