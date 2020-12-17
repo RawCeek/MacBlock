@@ -31,3 +31,5 @@ Just run the python script `macblock.py`.
 If you haven't changed the router management page login credentials, the script will use the default login credentials.
 
 If you have changed the login credentials change the **username** and **psd** in line 9 to match yours.
+
+TODO: Add code to unblock blocked mac addresses
